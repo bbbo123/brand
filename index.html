@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollify.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$.scrollify({
+			section : ".wrap > div",
+			sectionName : "section-name",
+			easing: "easeOutExpo",
+			scrollSpeed: 1100,
+			offset : 0,
+			scrollbars: true,
+			before:function() {
+				leafDefault()
+			},
+			after:function(index) {
+				console.log(index);
+				if(index==1){
+					leafAni();
+				}
+			},
+			afterResize:function() {}	
+		});
+	});
+</script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+	$(window).load( function(){
+		cloudAni();
+	});
+</script>
+
+
+<div class="posNum"></div>
+<div class="header"><!-- header start -->
+	<h1><a href="#scene01"><img src="images/header/logo.png" alt="로고" /></a></h1>
+	<ul class="menu">
+		<li class="menu01"><a href="sub_01.html"><img src="images/header/gnb01.png" alt="브랜드" /></a></li>
+		<li class="menu02"><a href="sub_02.html"><img src="images/header/gnb02.png" alt="메모리" /></a></li>
+		<li class="menu03"><a href="sub_03.html"><img src="images/header/gnb03.png" alt="컬렉션" /></a></li>
+		<li class="menu04"><a href="sub_04.html"><img src="images/header/gnb04.png" alt="이벤트" /></a></li>
+	</ul>
+</div>
+<!-- header end -->
+
+<ul class="navi naviJs">
+	<!-- navi start -->
+	<li class="navi01"><a href="#scene02">플라워가든</a></li>
+	<li class="navi02"><a href="#scene03">플라워링트리</a></li>
+	<li class="navi03"><a href="#scene04">웜하우스</a></li>
+	<li class="navi04"><a href="#scene05">릴렉싱배쓰</a></li>
+</ul>
+<!-- navi end -->
+<div class="frame"><img src="images/frame.png" alt="프레임" /></div>
+<div class="wrap">
+
+	<div class="scene01" data-section-name="scene01"><!-- scene01 start -->
+		<ul class="objs">
+			<li class="flower01"><img src="images/scene1_flower_01.png" alt="상단꽃" /></li>
+			<li class="flower02"><img src="images/scene1_flower_02.png" alt="하단꽃" /></li>
+			<li class="balloon01"><img src="images/scene1_balloon.png" alt="풍선향수" /></li>
+			<li class="balloon02"><img src="images/scene1_balloon2.png" alt="오른쪽 풍선" /></li>
+			<li class="title"><img src="images/scene1_title.png" alt="타이틀" /></li>
+			<li class="photo01"><img src="images/scene01/photo01.png" alt="왼쪽액자" /></li>
+			<li class="photo02"><img src="images/scene01/photo02.png" alt="오른쪽액자" /></li>
+			<li class="bottle"><img src="images/scene01/bottle.png" alt="꽃병" /></li>
+			<li class="stand"><img src="images/scene01/stand.png" alt="스탠드" /></li>
+			<li class="table"><img src="images/scene01/table.png" alt="테이블" /></li>
+			<li class="cloud01"><img src="images/scene01/cloud01.png" alt="구름01" /></li>
+			<li class="cloud02"><img src="images/scene01/cloud02.png" alt="구름02" /></li>
+			<li class="cloud03"><img src="images/scene01/cloud03.png" alt="구름03" /></li>
+			<li class="cloud04"><img src="images/scene01/cloud04.png" alt="구름04" /></li>
+			<li class="mirror"><img src="images/scene01/fragrance_mirror.png" alt="거울" /></li>
+			<li class="move_flower01"><img src="images/scene01/move_flower01/f01.png" alt="날리는꽃잎1" /></li>
+			<li class="move_flower02"><img src="images/scene01/move_flower01/f02.png" alt="날리는꽃잎2" /></li>
+			<li class="move_flower03"><img src="images/scene01/move_flower01/f03.png" alt="날리는꽃잎3" /></li>
+			<li class="move_flower04"><img src="images/scene01/move_flower01/f04.png" alt="날리는꽃잎4" /></li>
+			<li class="move_flower05"><img src="images/scene01/move_flower01/f05.png" alt="날리는꽃잎5" /></li>
+			<li class="move_flower06"><img src="images/scene01/move_flower02/fw01.png" alt="날리는꽃잎6" /></li>
+			<li class="move_flower07"><img src="images/scene01/move_flower02/fw02.png" alt="날리는꽃잎7" /></li>
+			<li class="move_flower08"><img src="images/scene01/move_flower02/fw03.png" alt="날리는꽃잎8" /></li>
+			
+		
+		</ul>
+	</div><!-- scene01 end -->	
+	
+	<div class="scene02" data-section-name="scene02"><!-- scene02 start -->
+		<ul class="objs">
+			<li class="bg_img"><img src="images/scene02/bg_img.png" alt="배경이미지" /></li>
+			<li class="cloud_01"><img src="images/scene02/cloud_01.png" alt="구름1" /></li>
+			<li class="cloud_02"><img src="images/scene02/cloud_02.png" alt="구름2" /></li>
+			<li class="cloud_03"><img src="images/scene02/cloud_03.png" alt="구름3" /></li>
+			<li class="balloon_01"><img src="images/scene02/ballon_01.png" alt="풍선1" /></li>
+			<li class="balloon_02"><img src="images/scene02/balloon_02.png" alt="풍선2" /></li>
+			<li class="balloon_03"><img src="images/scene02/balloon_03.png" alt="풍선3" /></li>
+			<li class="balloon_04"><img src="images/scene02/balloon_04.png" alt="풍선4" /></li>
+			<li class="title_02"><img src="images/scene02/title.png" alt="타이틀" /></li>
+			<li class="fly_01"><img src="images/scene02/fly_01.png" alt="나비1" /></li>
+			<li class="fly_02"><img src="images/scene02/fly_02.png" alt="나비2" /></li>
+			<li class="bigfly"><img src="images/scene02/bigfly.png" alt="나비2" /></li>
+			<li class="fragrance01"><img src="images/scene02/fragrance_01.png" alt="제라늄" /></li>
+			<li class="fragrance02"><img src="images/scene02/fragrance_02.png" alt="쟈스민" /></li>
+			<li class="fragrance03"><img src="images/scene02/fragrance_03.png" alt="플라워쇼" /></li>
+			<li class="greenflower"><img src="images/scene02/greenflower.png" alt="초록꽃" /></li>
+			<li class="greenflowerplant"><img src="images/scene02/greenflowerplant.png" alt="초록꽃잎" /></li>
+			<li class="pole"><img src="images/scene02/pole.png" alt="기둥" /></li>
+			<li class="leaf1_01 leaf1"><img src="images/scene02/leaf_01/leaf_01.png" alt="이파리1_1" /></li>
+			<li class="leaf1_02 leaf2"><img src="images/scene02/leaf_01/leaf_02.png" alt="이파리1_2" /></li>
+			<li class="leaf1_03 leaf3"><img src="images/scene02/leaf_01/leaf_03.png" alt="이파리1_3" /></li>
+			<li class="leaf1_04 leaf4"><img src="images/scene02/leaf_01/leaf_04.png" alt="이파리1_4" /></li>
+			<li class="leaf1_05 leaf5"><img src="images/scene02/leaf_01/leaf_05.png" alt="이파리1_5" /></li>
+			<li class="leaf2_01 leaf6"><img src="images/scene02/leaf_02/leaf_01.png" alt="이파리2_1" /></li>
+			<li class="leaf2_02 leaf7"><img src="images/scene02/leaf_02/leaf_02.png" alt="이파리2_2" /></li>
+			<li class="leaf2_03 leaf8"><img src="images/scene02/leaf_02/leaf_03.png" alt="이파리2_3" /></li>
+			<li class="leaf2_04 leaf9"><img src="images/scene02/leaf_02/leaf_04.png" alt="이파리2_4" /></li>
+			<li class="leaf2_05 leaf10"><img src="images/scene02/leaf_02/leaf_05.png" alt="이파리2_5" /></li>
+			<li class="leaf3_01 leaf11"><img src="images/scene02/leaf_03/leaf_01.png" alt="이파리3_1" /></li>
+			<li class="leaf3_02 leaf12"><img src="images/scene02/leaf_03/leaf_02.png" alt="이파리3_2" /></li>
+			<li class="leaf3_03 leaf13"><img src="images/scene02/leaf_03/leaf_03.png" alt="이파리3_3" /></li>
+			<li class="leaf3_04 leaf14"><img src="images/scene02/leaf_03/leaf_04.png" alt="이파리3_4" /></li>
+			<li class="leaf4_01 leaf15"><img src="images/scene02/leaf_04/leaf_01.png" alt="이파리4_1" /></li>
+			<li class="leaf4_02 leaf16"><img src="images/scene02/leaf_04/leaf_02.png" alt="이파리4_2" /></li>
+			<li class="leaf4_03 leaf17"><img src="images/scene02/leaf_04/leaf_03.png" alt="이파리4_3" /></li>
+			<li class="leaf4_04 leaf18"><img src="images/scene02/leaf_04/leaf_04.png" alt="이파리4_4" /></li>
+			<li class="leaf4_05 leaf19"><img src="images/scene02/leaf_04/leaf_05.png" alt="이파리4_5" /></li>
+			<li class="tree"><img src="images/scene02/tree.png" alt="나무" /></li>
+			<li class="branch"><img src="images/scene02/branch.png" alt="가지" /></li>
+			<li class="swing"><img src="images/scene02/swing.png" alt="그네" /></li>
+			<li class="rope_01"><img src="images/scene02/rope_01.png" alt="매듭1" /></li>
+			<li class="rope_02"><img src="images/scene02/rope_02.png" alt="매듭1" /></li>
+            
+                        
+            <li class="btn01 popBtn">
+				<a href="#pop01"></a>
+			</li>
+			<li class="btn02 popBtn">
+				<a href="#pop01">팝업</a>
+			</li>
+		</ul>
+	</div><!-- scene02 end -->
+	
+	<div class="scene03" data-section-name="scene03"><!-- scene03 start -->
+		<ul class="objs">
+			<li class="bg_img03"><img src="images/scene03/bg_img.png" alt="배경이미지" /></li>
+			<li class="title_03"><img src="images/scene03/title.png" alt="타이틀" /></li>
+			<li class="move_tulip"><img src="images/scene03/move_tulip.png" alt="날리는꽃잎" /></li>
+			<li class="move_bigtulip"><img src="images/scene03/move_bigtulip.png" alt="날리는튤립" /></li>
+			<li class="tulips_01 flower01"><img src="images/scene03/tulips_01.png" alt="뒤_왼쪽꽃" /></li>
+			<li class="tulips_02 flower02"><img src="images/scene03/tulips_02.png" alt="뒤_오른쪽꽃" /></li>
+			<li class="center_flowers flower03"><img src="images/scene03/center_flowers.png" alt="가운데꽃들" /></li>
+			<li class="left_flowers flower04"><img src="images/scene03/left_flowers.png" alt="왼쪽꽃들" /></li>
+			<li class="left_flowers_01 flower05"><img src="images/scene03/left_flowers_01.png" alt="왼쪽꽃" /></li>
+			<li class="right_flowers flower06"><img src="images/scene03/right_flowers.png" alt="오른쪽꽃들" /></li>
+			<li class="bigtulip_03 flower07"><img src="images/scene03/bigtulip_03.png" alt="큰튤립" /></li>
+			<li class="fragrance_01"><img src="images/scene03/fragrance_01.png" alt="향수1" /></li>
+			<li class="fragrance_02"><img src="images/scene03/fragrance_02.png" alt="향수2" /></li>
+            <li class="balloon"><img src="images/scene03/balloon.png" alt="향수2풍선" /></li>
+			<li class="fragrance_03"><img src="images/scene03/fragrance_03.png" alt="향수3" /></li>
+            <li class="btn01 popBtn">
+				<a href="#pop02">팝업</a>
+			</li>
+			<li class="btn02 popBtn">
+				<a href="#pop02">팝업</a>
+			</li>
+            <li class="btn03 popBtn">
+				<a href="#pop02">팝업</a>
+			</li>
+		</ul>
+	</div><!-- scene03 end -->
+	
+	<div class="scene04" data-section-name="scene04"><!-- scene04 start -->
+		<ul class="objs">
+			<li class="bg_img04"><img src="images/scene04/bg_img.png" alt="배경이미지" /></li>
+			<li class="title_04"><img src="images/scene04/title_04.png" alt="타이틀" /></li>
+			<li class="door"><img src="images/scene04/door.png" alt="현관" /></li>
+			<li class="flower"><img src="images/scene04/flower.png" alt="민들레" /></li>
+			<li class="raddle"><img src="images/scene04/raddle.png" alt="사다리" /></li>
+			<li class="fireballoon_01"><img src="images/scene04/fireballoon_01.png" alt="열기구1" /></li>
+			<li class="fireballoon_02"><img src="images/scene04/fireballoon_02.png" alt="열기구2" /></li>
+			<li class="fireballoon_03"><img src="images/scene04/fireballoon_03.png" alt="열기구3" /></li>
+			<li class="cloud_01"><img src="images/scene04/cloud_01.png" alt="구름1" /></li>
+			<li class="cloud_02"><img src="images/scene04/cloud_02.png" alt="구름2" /></li>
+			<li class="cloud_03"><img src="images/scene04/cloud_03.png" alt="구름3작은것" /></li>
+			<li class="cloud_04"><img src="images/scene04/cloud_04.png" alt="구름4" /></li>
+			<li class="clothes_01"><img src="images/scene04/clothes_01.png" alt="빨래1" /></li>
+			<li class="clothes_02"><img src="images/scene04/clothes_02.png" alt="빨래2" /></li>
+			<li class="balloon"><img src="images/scene04/balloon.png" alt="풍선" /></li>
+			<li class="bubbles"><img src="images/scene04/bubbles.png" alt="거품" /></li>
+			<li class="fragrance_01"><img src="images/scene04/fragrance_01.png" alt="향수1" /></li>
+			<li class="fragrance_02"><img src="images/scene04/fragrance_02.png" alt="향수2" /></li>
+			<li class="dog"><img src="images/scene04/dog.png" alt="개" /></li>
+			<li class="fence"><img src="images/scene04/fence.png" alt="울타리" /></li>
+            <li class="btn01 popBtn">
+				<a href="#pop03">팝업</a>
+			</li>
+			<li class="btn02 popBtn">
+				<a href="#pop03">팝업</a>
+			</li>
+		</ul>
+	</div><!-- scene04 end -->
+	
+	<div class="scene05" data-section-name="scene05"><!-- scene05 start -->
+		<ul class="objs">
+			<li class="window"><img src="images/scene05/window.png" alt="창문" /></li>
+			<li class="flat"><img src="images/scene05/flat.png" alt="바닥" /></li>
+			<li class="bathtub"><img src="images/scene05/bathtub.png" alt="욕조" /></li>
+			<li class="bubbles"><img src="images/scene05/bubbles.png" alt="비눗방울" /></li>
+			<li class="clothes"><img src="images/scene05/clothes.png" alt="옷걸이" /></li>
+			<li class="chair"><img src="images/scene05/chair.png" alt="의자" /></li>
+			<li class="drawer"><img src="images/scene05/drawer.png" alt="수납장" /></li>
+			<li class="door"><img src="images/scene05/door.png" alt="욕실문" /></li>
+			<li class="cu"><img src="images/scene05/cu.png" alt="쿠션" /></li>
+			<li class="shampoo"><img src="images/scene05/shampoo.png" alt="샴푸" /></li>
+			<li class="title_05"><img src="images/scene05/title_05.png" alt="타이틀" /></li>
+			<li class="light"><img src="images/scene05/light.png" alt="조명" /></li>
+			<li class="balloon"><img src="images/scene05/balloon.png" alt="풍선" /></li>
+			<li class="fragrance_01"><img src="images/scene05/fragrance_01.png" alt="향수1" /></li>
+			<li class="fragrance_02"><img src="images/scene05/fragrance_02.png" alt="향수2" /></li>
+			<li class="bubble_top"><img src="images/scene05/bubble_top.png" alt="위거품" /></li>
+			<li class="deem"><img src="images/scene05/deem.png" alt="어둠" /></li>
+            <li class="btn01 popBtn">
+				<a href="#pop04">팝업</a>
+			</li>
+			<li class="btn02 popBtn">
+				<a href="#pop04">팝업</a>
+			</li>
+            
+		</ul>
+	</div><!-- scene05 end -->
+</div>
+
+
+<div class="darkBg"></div>
+<div class="popBox">
+	<div class="info">안내</div>
+	<ul class="innerList">
+		<li id="pop01"><img src="images/popup/scene_02.jpg" alt="" /></li>
+		<li id="pop02"><img src="images/popup/scene_03.jpg" alt="" /></li>
+		<li id="pop03"><img src="images/popup/scene_04.jpg" alt="" /></li>
+		<li id="pop04"><img src="images/popup/scene_05.jpg" alt="" /></li>
+	</ul>
+</div>
+<div class="footer"><!-- footer start --> 
+	footer </div>
+<!-- footer end -->
+</body>
+</html>
