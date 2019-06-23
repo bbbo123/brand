@@ -1,0 +1,933 @@
+
+
+.posNum{
+	position:fixed;
+	left:50%;
+	top:50%;
+	width:300px;
+	height:50px;
+	margin:-25px 0 0 -150px;
+	background:#111;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	line-height:50px;
+	z-index:9999;
+	display:none;
+}
+
+
+/** header **/
+.header{
+	width:760px;
+	position:fixed;
+	left:50%;
+	top:40px;
+	margin-left:-345px;
+	z-index:999;
+}
+
+.header h1{
+	position:absolute;
+	left:240px;
+	top:-12px;	
+}
+
+.header .menu{
+	
+}
+.header .menu li{
+	float:left;
+	margin-right:55px;
+}
+.header .menu .menu02{
+	margin-right:311px;
+}
+.header .menu .menu04{
+	margin-right:0;
+}
+
+
+/** Navi **/
+.navi{
+	position:fixed;
+	left:50%;
+	bottom:120px;
+	margin-left:-337px;
+	z-index:99;	
+}
+.navi li{
+	float:left;	
+}
+.navi li a{
+	display:block;
+	height:48px;
+	text-indent:-9999px;
+}
+.navi .navi01 a{
+	width:170px;
+	background:url(../images/navi/navi01.png) no-repeat left top;
+}
+.navi .navi02 a{
+	width:166px;
+	background:url(../images/navi/navi02.png) no-repeat left top;
+}
+.navi .navi03 a{
+	width:166px;
+	background:url(../images/navi/navi03.png) no-repeat left top;
+}
+.navi .navi04 a{
+	width:170px;
+	background:url(../images/navi/navi04.png) no-repeat left top;
+}
+
+
+.navi .navi01.on a{
+	background:url(../images/navi/navi01_on.png) no-repeat left top;
+	margin-top:2px;
+}
+
+.navi .navi02.on a{
+	width:170px;
+	margin-top:2px;
+	background:url(../images/navi/navi02_on.png) no-repeat left top;
+}
+
+.navi .navi03.on a{
+	width:168px;
+	margin-top:2px;
+	background:url(../images/navi/navi03_on.png) no-repeat left top;
+}
+.navi .navi04.on a{
+	margin-top:2px;
+	background:url(../images/navi/navi04_on.png) no-repeat left top;
+}
+
+
+
+/** Common **/
+.objs > li{
+	position:absolute;
+	left:50%;
+}
+.wrap{
+		overflow:hidden;
+}
+.wrap > div {
+	position: relative;
+	min-height:900px;
+}
+
+
+.frame{
+	position:fixed;
+	margin-left:-515px;
+	left:50%;
+	top:94px;
+	z-index:20;
+}
+
+
+
+/** Scene01 **/
+.scene01{
+	background:url(../images/00_main_0915_V1.png) repeat;
+}
+.scene01 .objs .flower01{
+	margin-left:400px;
+	top:70px;
+	z-index:30;
+	display:none;
+}
+.scene01 .objs .flower02{
+	margin-left:-415px;
+	top:530px;
+	z-index:30;	
+	display:none;
+}
+.scene01 .objs .balloon01{
+	margin-left:-595px;
+	top:-81px;
+	z-index:30;
+}
+.scene01 .objs .balloon02{
+	margin-left:324px;
+	top:414px;
+}
+.wrap .flower01{
+	margin-right:-500px;
+	top:70px;
+	z-index:30;
+}
+.wrap .flower02{
+	margin-left:-415px;
+	top:530px;
+	z-index:30;	
+}
+.scene01 .objs .title{
+	margin-left:-216px;
+	top:250px;
+}
+.scene01 .objs .photo01{
+	margin-left:-869px;
+	top:80px;
+}
+.scene01 .objs .photo02{
+	margin-left:567px;
+	top:300px;
+}
+.scene01 .objs .bottle{
+	margin-left:-605px;
+	bottom:145px;
+	z-index:2;		
+}
+.scene01 .objs .stand{
+	margin-left:-840px;
+	bottom:115px;
+	z-index:21;	
+}
+.scene01 .objs .table{
+	margin-left:-1000px;
+	bottom:40px;
+	z-index:19;
+}
+.scene01 .objs .cloud01{
+	margin-left:260px;
+	top:134px;
+}
+.scene01 .objs .cloud02{
+	margin-left:-782px;
+	top:266px;
+}
+.scene01 .objs .cloud03{
+	margin-left:413px;
+	top:497px;
+}
+.scene01 .objs .cloud04{
+	margin-left:-180px;
+	top:653px;
+}
+.scene01 .objs .mirror{
+	margin-left:285px;
+	bottom:133px;
+	z-index:30;
+}
+.scene01 .objs .move_flower01{
+	margin-left:-185px;
+	top:187px;
+	z-index:30;
+	margin-left:185px;
+	top:-287px;
+}
+.scene01 .objs .move_flower02{
+	margin-left:11px;
+	top:187px;
+	z-index:30;
+	margin-left:50px;
+	top:-287px;
+}
+.scene01 .objs .move_flower03{
+	margin-left:230px;
+	top:298px;
+	z-index:30;
+	margin-left:500px;
+	top:-398px;
+}
+
+.scene01 .objs .move_flower04{
+	margin-left:-320px;
+	top:372px;
+	z-index:30;
+	margin-left:500px;
+	top:-372px;
+}
+.scene01 .objs .move_flower05{
+	margin-left:81px;
+	bottom:284px;
+	z-index:30;
+	margin-left:160px;
+	bottom:-287px;
+}
+.scene01 .objs .move_flower06{
+	margin-left:200px;
+	top:72px;
+	z-index:30;
+	margin-left:300px;
+	top:-140px;
+}
+.scene01 .objs .move_flower07{
+	margin-left:55px;
+	top:197px;
+	z-index:30;
+	margin-left:300px;
+	top:-100px;
+}
+.scene01 .objs .move_flower08{
+	margin-left:-237px;
+	top:618px;
+	z-index:30;
+	margin-left:233px;
+	top:-10px;
+}
+
+
+/** Scene02 **/
+.scene02{
+	margin-top:-40px;
+	background:url(../images/scene01/bg.jpg) repeat-x left top;
+}
+
+.scene02 .objs .bg_img{
+	bottom:0px;
+	margin-left:-1000px;
+	z-index:2;	
+}
+
+.scene02 .objs .cloud_01{
+	margin-left:368px;
+	top:195px;
+}
+
+.scene02 .objs .cloud_02{
+	margin-left:-691px;
+	top:384px;
+	z-index:15;	
+}
+
+.scene02 .objs .cloud_03{
+	margin-left:-931px;
+	top:542px;
+}
+
+.scene02 .objs .balloon_01{
+	margin-left:-271px;
+	top:90px;
+	z-index:25;	
+}
+
+.scene02 .objs .balloon_02{
+	margin-left:221px;
+	top:-62px;
+	z-index:25;	
+}
+
+.scene02 .objs .balloon_03{
+	margin-left:289px;
+	top:305px;
+	z-index:25;
+	
+}
+
+.scene02 .objs .balloon_04{
+	margin-left:-63px;
+	top:670px;
+	z-index:25;
+}
+
+.scene02 .objs .title_02{
+	margin-left:-300px;
+	top:282px;
+}
+
+.scene02 .objs .fly_01{
+	margin-left:-192px;
+	top:298px;
+}
+
+.scene02 .objs .fly_02{
+	margin-left:214px;
+	top:400px;
+}
+
+.scene02 .objs .bigfly{
+	margin-left:-632px;
+	top:180px;
+	z-index:25;	
+}
+
+.scene02 .objs .fragrance01{
+	margin-left:161px;
+	top:80px;
+	z-index:25;	
+}
+
+.scene02 .objs .fragrance02{
+	margin-left:-405px;
+	top:217px;
+}
+
+.scene02 .objs .fragrance03{
+	margin-left:265px;
+	top:500px;
+	z-index:25;	
+}
+
+.scene02 .objs .greenflower{
+	margin-left:-484px;
+	top:533px;
+	z-index:25;	
+}
+
+.scene02 .objs .greenflowerplant{
+	margin-left:-547px;
+	bottom:127px;
+	z-index:23;	
+}
+
+.scene02 .objs .pole{
+	margin-left:-1030px;
+	top:-20px;
+	z-index:18;	
+}
+
+.scene02 .objs .leaf1_01{
+	margin-left:-1000px;
+	top:0;
+	z-index:23;	
+}
+
+.scene02 .objs .leaf1_02{
+	margin-left:-1000px;
+	top:0;
+	z-index:22;	
+}
+
+.scene02 .objs .leaf1_03{
+	margin-left:-1000px;
+	top:434px;
+	z-index:21;	
+}
+
+.scene02 .objs .leaf1_04{
+	margin-left:-1000px;
+	top:680px;
+	z-index:20;	
+}
+
+.scene02 .objs .leaf1_05{
+	margin-left:-1000px;
+	top:250px;
+	z-index:19;	
+}
+
+
+
+.scene02 .objs .leaf2_01{
+	margin-left:693px;
+	top:0;
+	z-index:25;	
+}
+
+.scene02 .objs .leaf2_02{
+	margin-left:797px;
+	top:-20px;
+	z-index:18;	
+}
+
+.scene02 .objs .leaf2_03{
+	margin-left:803px;
+	top:137px;
+	z-index:23;	
+}
+
+.scene02 .objs .leaf2_04{
+	margin-left:560px;
+	top:-10px;
+	z-index:18;	
+}
+
+.scene02 .objs .leaf2_05{
+	margin-left:611px;
+	top:-20px;
+	z-index:17;	
+}
+
+
+
+
+.scene02 .objs .leaf3_01{
+	margin-left:-800px;
+	bottom:0;
+	z-index:23;	
+}
+
+.scene02 .objs .leaf3_02{
+	margin-left:-1000px;
+	bottom:0;
+	z-index:22;	
+}
+
+.scene02 .objs .leaf3_03{
+	margin-left:-923px;
+	bottom:0px;
+	z-index:21;	
+}
+
+.scene02 .objs .leaf3_04{
+	margin-left:-900px;
+	bottom:0px;
+	z-index:20;	
+}
+
+
+
+
+
+.scene02 .objs .leaf4_01{
+	margin-left:420px;
+	bottom:0;
+	z-index:23;	
+}
+
+.scene02 .objs .leaf4_02{
+	margin-left:803px;
+	bottom:50px;
+	z-index:22;	
+}
+
+.scene02 .objs .leaf4_03{
+	margin-left:368px;
+	bottom:-20px;
+	z-index:21;	
+}
+
+.scene02 .objs .leaf4_04{
+	margin-left:765px;
+	bottom:0;
+	z-index:20;	
+}
+
+.scene02 .objs .leaf4_05{
+	margin-left:645px;
+	bottom:0;
+	z-index:18;	
+}
+
+
+
+
+.scene02 .objs .tree{
+	margin-left:240px;
+	top:-55px;
+	z-index:17;	
+}
+
+.scene02 .objs .branch{
+	margin-left:240px;
+	top:-55px;
+	z-index:20;	
+}
+
+.scene02 .objs .swing{
+	margin-left:615px;
+	top:127px;
+	z-index:21;	
+}
+
+.scene02 .objs .rope_01{
+	margin-left:-442px;
+	top:-10px;
+	z-index:21;	
+}
+
+.scene02 .objs .rope_02{
+	margin-left:411px;
+	top:-10px;
+	z-index:21;	
+}
+
+.scene02 .objs .branch{
+	margin-left:575px;
+	top:0;
+	z-index:21;	
+}
+
+
+
+/** Scene03 **/
+.scene03{
+	background:url(../images/scene03/bg.png) repeat-x left top;
+}
+
+.scene03 .objs .bg_img03{
+	bottom:0;
+	margin-left:-1000px;	
+}
+
+.scene03 .objs .title_03{
+	margin-left:-300px;
+	top:332px;	
+}
+
+.scene03 .objs .move_tulip{
+	margin-left:-345px;
+	top:72px;
+	z-index:25;
+}
+
+.scene03 .objs .move_bigtulip{
+	margin-left:194px;
+	top:167px;
+	z-index:25;
+}
+
+.scene03 .objs .tulips_01{
+	margin-left:-800px;
+	top:580px;
+}
+
+.scene03 .objs .tulips_02{
+	margin-left:252px;
+	top:700px;
+	z-index:25;
+}
+
+.scene03 .objs .center_flowers{
+	margin-left:-315px;
+	bottom:0;
+	z-index:25;
+}
+
+.scene03 .objs .left_flowers{
+	margin-left:-1000px;
+	bottom:0;
+	z-index:40;
+}
+
+.scene03 .objs .left_flowers_01{
+	margin-left:-460px;
+	bottom:0;
+}
+
+.scene03 .objs .right_flowers{
+	margin-left:323px;
+	bottom:0;
+	z-index:25;
+}
+
+.scene03 .objs .bigtulip_03{
+	margin-left:-570px;
+	top:500px;
+	z-index:23;	
+}
+
+.scene03 .objs .fragrance_01{
+	margin-left:-464px;
+	top:28px;
+	z-index:23;	
+}
+
+.scene03 .objs .fragrance_02{
+	margin-left:248px;
+	top:400px;
+	z-index:23;	
+}
+
+.scene03 .objs .balloon{
+	margin-left:395px;
+	top:150px;
+	z-index:23;	
+}
+
+.scene03 .objs .fragrance_03{
+	margin-left:-335px;
+	top:424px;
+	z-index:23;	
+}
+
+
+
+/** Scene04 **/
+.scene04{
+	background:url(../images/scene04/bg.jpg) repeat-x left top;
+}
+
+.scene04 .objs .bg_img04{
+	top:581px;
+	margin-left:-1000px;	
+}
+
+.scene04 .objs .title_04{
+	margin-left:-273px;
+	top:300px;
+	z-index:25;
+}
+
+.scene04 .objs .door{
+	margin-left:-1000px;
+	bottom:30px;
+	z-index:25;
+}
+
+.scene04 .objs .flower{
+	margin-left:-590px;
+	bottom:0;
+	z-index:20;
+}
+
+.scene04 .objs .raddle{
+	margin-left:-690px;
+	top:146px;
+}
+
+.scene04 .objs .fireballoon_01{
+	margin-left:-273px;
+	top:0;
+	z-index:19;
+}
+
+.scene04 .objs .fireballoon_02{
+	margin-left:356px;
+	top:60px;
+	z-index:19;	
+}
+
+.scene04 .objs .fireballoon_03{
+	margin-left:534px;
+	top:168px;
+	z-index:19;	
+}
+.scene04 .objs .cloud_01{
+	margin-left:-777px;
+	top:30px;
+	z-index:23;	
+}
+.scene04 .objs .cloud_02{
+	margin-left:-302px;
+	top:140px;
+	z-index:18;	
+}
+.scene04 .objs .cloud_03{
+	margin-left:616px;
+	top:204px;
+	z-index:23;	
+}
+.scene04 .objs .cloud_04{
+	margin-left:276px;
+	top:315px;
+	z-index:23;	
+}
+.scene04 .objs .clothes_01{
+	margin-left:-952px;
+	top:233px;
+	z-index:23;	
+}
+.scene04 .objs .clothes_02{
+	margin-left:290px;
+	top:260px;
+	z-index:25;	
+}
+.scene04 .objs .balloon{
+	margin-left:-90px;
+	bottom:0;
+	z-index:23;	
+}
+.scene04 .objs .bubbles{
+	margin-left:86px;
+	top:119px;
+	z-index:23;	
+}
+.scene04 .objs .fragrance_01{
+	margin-left:-461px;
+	top:132px;
+	z-index:23;	
+}
+.scene04 .objs .fragrance_02{
+	margin-left:92px;
+	top:191px;
+	z-index:23;	
+}
+.scene04 .objs .dog{
+	margin-left:610px;
+	bottom:40px;
+	z-index:24;	
+}
+.scene04 .objs .fence{
+	margin-left:-1000px;
+	bottom:40px;
+	z-index:25;	
+}
+
+
+
+
+/** Scene05 **/
+.scene05{
+	background:url(../images/scene05/bg_05.jpg) repeat-x left top;
+}
+
+.scene05 .objs .window{
+	margin-left:-72px;
+	top:37px;
+	z-index:12;	
+}
+
+.scene05 .objs .flat{
+	margin-left:-1000px;
+	bottom:0;
+	z-index:12;	
+}
+.scene05 .objs .bathtub{
+	margin-left:152px;
+	top:423px;
+	z-index:18;	
+}
+.scene05 .objs .bubbles{
+	margin-left:179px;
+	top:131px;
+	z-index:24;	
+}
+.scene05 .objs .clothes{
+	margin-left:-950px;
+	top:180px;
+	z-index:20;	
+}
+.scene05 .objs .chair{
+	margin-left:-850px;
+	top:540px;
+	z-index:21;	
+}
+.scene05 .objs .drawer{
+	margin-left:-752px;
+	top:257px;
+	z-index:15;	
+}
+.scene05 .objs .door{
+	margin-left:771px;
+	bottom:0;
+	z-index:23;	
+}
+.scene05 .objs .cu{
+	margin-left:-515px;
+	top:527px;
+	z-index:19;	
+}
+.scene05 .objs .shampoo{
+	margin-left:-225px;
+	top:446px;
+	z-index:23;	
+}
+
+.scene05 .objs .title_05{
+	margin-left:-194px;
+	top:260px;
+	z-index:24;	
+}
+
+.scene05 .objs .light{
+	margin-left:-575px;
+	top:0;
+	z-index:25;	
+}
+
+.scene05 .objs .balloon{
+	margin-left:-579px;
+	bottom:100px;
+	z-index:24;	
+}
+
+.scene05 .objs .fragrance_01{
+	margin-left:-467px;
+	top:325px;
+	z-index:24;	
+}
+.scene05 .objs .fragrance_02{
+	margin-left:284px;
+	top:59px;
+	z-index:24;	
+}
+.scene05 .objs .bubble_top{
+	margin-left:295px;
+	top:455px;
+	z-index:24;	
+}
+
+
+.scene05 .objs .deem{
+	margin-left:-1008px;
+	top:-60px;
+	z-index:24;	
+}
+
+.darkBg{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	z-indeX:99998;	
+	display:none;
+	
+}
+
+.popBox{
+	position:fixed;
+	left:50%;
+	top:50%;
+	width:1017px;
+	height:696px;
+	margin-left:-515px;
+	margin-top:-395px;
+	z-indeX:99999;	
+	background:#fff;
+	display:none;
+}
+.popBox .info{
+	position:absolute;
+	right:-100px;
+	top:200px;
+	background:#fff;	
+}
+.popBox .innerList li{
+	display:none;
+}
+
+.popBtn a{
+	display:block;
+	height:100%;	
+}
+.btn01{
+	margin-left:-404px;
+	margin-top:217px;
+	width:135px;
+	height:250px;
+	background:#9C0;
+	z-index:999;	
+}
+
+.btn02{
+	margin-left:266px;
+	margin-top:500px;
+	width:125px;
+	height:240px;
+	background:#9C0;
+	z-index:999;	
+}
+
+.btn03{
+	margin-left:266px;
+	margin-top:100px;
+	width:125px;
+	height:240px;
+	background:#9C0;
+	z-index:999;	
+}
+
+
+
+/** footer **/
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	z-index:90;
+	height:40px;
+	background:#333;	
+}
+
+
+
+
